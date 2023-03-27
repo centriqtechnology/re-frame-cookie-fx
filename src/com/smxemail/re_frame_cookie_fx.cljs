@@ -1,7 +1,7 @@
 (ns com.smxemail.re-frame-cookie-fx
   (:require
     [cljs.spec.alpha :as s]
-    [goog.net.cookies]
+    [goog.net.Cookies]
     [re-frame.core :refer [console dispatch reg-cofx reg-fx]]))
 
 ;; A coeffect handler that injects the state of cookies being enabled or
